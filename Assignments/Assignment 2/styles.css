@@ -1,0 +1,65 @@
+.header-nav-color{
+    background-color: #2B2E7A;
+}
+
+.navbar-custom{
+    background-color: #32409A;
+}
+
+.top-search-color{
+    background-color: #F13E80;
+    color: white;
+}
+
+.top-search-color:hover{
+    color: white;
+    background-color: #ce3f73;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.top-bar-size{
+    font-size: 3mm;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    margin-left: 1mm;
+    margin-right: 3mm;
+}
+
+.remove-link-lines{
+    text-decoration: none;
+}
+
+.footer-text-color{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #2B2E7A;
+}
+
+.gray {
+    filter:grayscale();
+}
+
+.modal, .modal-content {
+    pointer-events: none;    
+}
+
+img {
+    padding: 10px;
+}
+
+.img-size{
+    width: 400px;
+    height: auto;
+} 
+
+#big-img {
+    background-color: #424242;
+    color: white;
+}
