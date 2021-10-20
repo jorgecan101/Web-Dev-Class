@@ -1,0 +1,44 @@
+span {
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+li {
+    width: auto;
+    height: 40px;
+}
+
+.start-hidden {
+    display: none;
+}
+
+.focused {
+    outline: none;
+    border: solid 2px red;
+    color: red;
+}
+
+.fix-text-box {
+    margin-left: 30px;
+    width: auto;
+}
