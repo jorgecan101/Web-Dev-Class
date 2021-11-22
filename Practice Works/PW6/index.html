@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Nearby</title>
+    
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDe1jkmcLLzlFMl-8yLHssn4PN0ted6cws&callback=initState&libraries=places"
+      async
+      defer
+    ></script>
+
+    <style type="text/css">
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+    #map {
+        height: 100%;
+    }
+
+      /* Optional: Makes the sample page fill the window. */
+    html, body {
+        height: 100%;
+        margin: 10px;
+        padding: 0;
+    }
+
+    #myButton {
+        margin-bottom: 10px;
+    }
+    </style>
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <form>
+        <label for="address">Enter Address (Press Submit): </label><br>
+        <input type="text" id="address" name="address">
+        <button type="button" id="myButton">Submit</button>
+    </form>
+    <div id="map"></div>
+
+  </body>
+</html>
